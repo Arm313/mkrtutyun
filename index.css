@@ -148,3 +148,23 @@ section {
     transform: translateY(7px);
   }
 }
+
+#countdown {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+#countdown p {
+  font-weight: 700;
+  font-size: clamp(3rem, -1.5rem + 10vw, 5rem);
+}
+
+#countdown span {
+  font-size: clamp(2rem, -1.5rem + 10vw, 3rem);
+}
+
+.countdown-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
